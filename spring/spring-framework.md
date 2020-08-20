@@ -1,0 +1,48 @@
+Spring Framework
+- Dependency Injection
+- Enterprise Service Abstractions
+- Aspect-Oriented Programming
+
+Manage dependencies
+- stereotypes: @Service, @Controller, @Component
+- injecting beans: @Inject, @Autowired, @Resource
+- transactions: @Transactional, @EnableTransactionManagement
+- caching: @Cacheable
+- bean configuration:
+    - xml -> ClassPathXmlApplicationContext
+    - Java -> AnnotationConfigApplicationContext, @Configuration, @PropertySource - Environment, @ComponentScan, @Bean
+    - annotations
+    - component scan
+- ApplicationContext: manages beans
+- @PostConstruct
+- lifecycle callbacks:
+    - InitializingBean, DisposableBean
+    - @PostConstruct, @PreDestroy
+    - SmartLifeCycle
+- bean scopes:
+    - @Scope
+    - singleton, request
+    - Scope Contract, CustomScopeConfigurer
+- BeanPostProcessor, AutowiredAnnotationBeanPostProcessor
+- BeanFactoryPostProcessor: static
+- AOP:
+    - pointcut
+    - @EnableAspectJAutoProxy
+    - @Aspect
+    - @Around
+- FactoryBeans
+- Expression Language
+    - @Value("#{}")
+- @Profile
+- @Import()
+- Environment, PropertyResolver
+- TaskExecutor, @EnableAsync, @Async
+- Schedule jobs: TaskScheduler
+    - EnableScheduling
+    - @Scheduled(cron, fixedRate, fixedDelay)
+- CacheManager API
+    - CacheManager
+    - Cache
+    - @EnableCaching
+    - @Cacheable
+    - @CacheEvict
