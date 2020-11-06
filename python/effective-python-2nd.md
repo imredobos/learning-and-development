@@ -1,6 +1,8 @@
-Chapter 1: Pythonic Thinking
+# Effective Python: 90 Specific Ways to Write Better Python - Brett Slatki
 
-Item 1: Know Which Version of Python You’re Using
+## Chapter 1: Pythonic Thinking
+
+### Item 1: Know Which Version of Python You’re Using
 
 Item 2: Follow the PEP 8 Style Guide
 
