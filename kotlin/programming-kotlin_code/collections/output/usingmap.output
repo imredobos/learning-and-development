@@ -1,0 +1,15 @@
+2
+true
+false
+true
+true
+pragprog --- https://www.pragprog.com
+agiledeveloper --- https://agiledeveloper.com
+pragprog --- https://www.pragprog.com
+agiledeveloper --- https://agiledeveloper.com
+{pragprog=https://www.pragprog.com, agiledeveloper=https://agiledeveloper.com}
+{pragprog=https://www.pragprog.com, agiledeveloper=https://agiledeveloper.com, example=http://www.example.com}
+{pragprog=https://www.pragprog.com}
+https://www.pragprog.com
+https://www.pragprog.com
+https://agiledeveloper.com

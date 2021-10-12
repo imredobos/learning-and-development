@@ -1,0 +1,3 @@
+varargerr.kts:13:13: error: type mismatch: inferred type is IntArray but Int was expected
+println(max(values)) //ERROR
+            ^

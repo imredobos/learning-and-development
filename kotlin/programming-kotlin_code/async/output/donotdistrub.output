@@ -1,0 +1,10 @@
+2: entered 1000
+1: entered 3000
+2: finished nap 1000
+2: do not disturb, please
+cancelling
+1: doWork(3000) was cancelled
+2: OK, you can talk to me now
+2: outside the restricted context
+2: isActive: false
+done

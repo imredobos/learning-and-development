@@ -1,0 +1,3 @@
+scope.kts:3:9: error: unresolved reference: i
+println(i)
+        ^

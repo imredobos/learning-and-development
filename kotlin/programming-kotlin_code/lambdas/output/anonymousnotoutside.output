@@ -1,0 +1,12 @@
+anonymousnotoutside.kts:6:1: error: expecting an element
+)
+^
+anonymousnotoutside.kts:4:7: error: type inference failed: inline fun <T> Iterable<T>.find(predicate: (T) -> Boolean): T?
+cannot be applied to
+receiver: List<String>  arguments: ((String) -> (String) -> Boolean)
+
+names.find { fun(name: String): Boolean { return name.length == 5 } } //ERROR
+      ^
+anonymousnotoutside.kts:4:12: error: type mismatch: inferred type is (String) -> (String) -> Boolean but (String) -> Boolean was expected
+names.find { fun(name: String): Boolean { return name.length == 5 } } //ERROR
+           ^

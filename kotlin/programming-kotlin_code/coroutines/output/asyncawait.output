@@ -1,0 +1,3 @@
+Called the function in Thread[main,5,main]
+fetching in Thread[DefaultDispatcher-worker-1,5,main]
+Number of cores is 8

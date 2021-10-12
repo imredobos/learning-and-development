@@ -1,0 +1,47 @@
+UseCardWithEnum.kt:1:19: error: unresolved reference: Card
+fun process(card: Card) = when (card) {
+                  ^
+UseCardWithEnum.kt:1:27: error: 'when' expression must be exhaustive, add necessary 'else' branch
+fun process(card: Card) = when (card) {
+                          ^
+UseCardWithEnum.kt:2:6: error: unresolved reference: Ace
+  is Ace -> "${card.javaClass.name} of ${card.suit}"
+     ^
+UseCardWithEnum.kt:3:6: error: unresolved reference: King
+  is King, is Queen, is Jack -> "$card"
+     ^
+UseCardWithEnum.kt:3:15: error: unresolved reference: Queen
+  is King, is Queen, is Jack -> "$card"
+              ^
+UseCardWithEnum.kt:3:25: error: unresolved reference: Jack
+  is King, is Queen, is Jack -> "$card"
+                        ^
+UseCardWithEnum.kt:4:6: error: unresolved reference: Pip
+  is Pip -> "${card.number} of ${card.suit}"
+     ^
+UseCardWithEnum.kt:9:19: error: unresolved reference: Ace
+  println(process(Ace(Suit.DIAMONDS)))    // Ace of DIAMONDS
+                  ^
+UseCardWithEnum.kt:9:23: error: unresolved reference: Suit
+  println(process(Ace(Suit.DIAMONDS)))    // Ace of DIAMONDS
+                      ^
+UseCardWithEnum.kt:10:19: error: unresolved reference: Queen
+  println(process(Queen(Suit.CLUBS)))    // Queen of CLUBS
+                  ^
+UseCardWithEnum.kt:10:25: error: unresolved reference: Suit
+  println(process(Queen(Suit.CLUBS)))    // Queen of CLUBS
+                        ^
+UseCardWithEnum.kt:11:19: error: unresolved reference: Pip
+  println(process(Pip(Suit.SPADES, 2)))   // 2 of SPADES
+                  ^
+UseCardWithEnum.kt:11:23: error: unresolved reference: Suit
+  println(process(Pip(Suit.SPADES, 2)))   // 2 of SPADES
+                      ^
+UseCardWithEnum.kt:12:19: error: unresolved reference: Pip
+  println(process(Pip(Suit.HEARTS, 6)))  // 6 of HEARTS
+                  ^
+UseCardWithEnum.kt:12:23: error: unresolved reference: Suit
+  println(process(Pip(Suit.HEARTS, 6)))  // 6 of HEARTS
+                      ^
+Error: Could not find or load main class UseCardWithEnumKt
+Caused by: java.lang.ClassNotFoundException: UseCardWithEnumKt

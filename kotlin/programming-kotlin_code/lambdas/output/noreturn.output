@@ -1,0 +1,3 @@
+noreturn.kts:15:22: error: 'return' is not allowed here
+      if (it == 2) { return } //ERROR, return is not allowed here <label id="code.errorreturn" />
+                     ^

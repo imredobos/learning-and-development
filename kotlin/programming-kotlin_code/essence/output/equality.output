@@ -1,0 +1,14 @@
+true
+false
+false
+false
+true
+equality.kts:3:9: warning: condition 'null == "hi"' is always 'false'
+println(null == "hi")
+        ^
+equality.kts:4:9: warning: condition '"hi" == null' is always 'false'
+println("hi" == null)
+        ^
+equality.kts:5:9: warning: condition 'null == null' is always 'true'
+println(null == null)
+        ^

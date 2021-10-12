@@ -1,0 +1,14 @@
+enter invokeTwo 1
+
+called with 1, Stack depth: 31
+Partial listing of the stack:
+Noinline.report(noinline.kts:31)
+Noinline$callInvokeTwo$1.invoke(noinline.kts:20)
+Noinline$callInvokeTwo$1.invoke(noinline.kts:1)
+
+called with 1, Stack depth: 31
+Partial listing of the stack:
+Noinline.report(noinline.kts:31)
+Noinline$callInvokeTwo$2.invoke(noinline.kts:20)
+Noinline$callInvokeTwo$2.invoke(noinline.kts:1)
+exit invokeTwo 1

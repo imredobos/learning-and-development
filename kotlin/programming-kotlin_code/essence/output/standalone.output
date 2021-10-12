@@ -1,0 +1,4 @@
+not in a function, calling nofluff()
+nofluff called...
+Standalone.nofluff(standalone.kts:4)
+Standalone.<init>(standalone.kts:10)

@@ -1,0 +1,3 @@
+xmlbuilderdslmarker.kts:12:9: error: 'fun root(rootElementName: String, block: Xmlbuilderdslmarker.Node.() -> Unit): Xmlbuilderdslmarker.Node' can't be called in this context by implicit receiver. Use the explicit one if necessary
+        root("oops") {} //ERROR: can't call root from here
+        ^

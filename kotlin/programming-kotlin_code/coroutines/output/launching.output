@@ -1,0 +1,7 @@
+start
+called task1 and task2 from Thread[main,5,main]
+start task1 in Thread Thread[main,5,main]
+end task1 in Thread Thread[main,5,main]
+start task2 in Thread Thread[main,5,main]
+end task2 in Thread Thread[main,5,main]
+done

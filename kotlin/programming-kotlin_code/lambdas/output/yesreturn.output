@@ -1,0 +1,7 @@
+in forEach for 1
+enter invokeWith 1
+enter for 1
+exit for 1
+exit invokeWith 1
+in forEach for 2
+after return from caller

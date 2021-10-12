@@ -1,0 +1,4 @@
+0
+unused.kts:1:13: warning: parameter 'n' is never used
+fun compute(n: Int) = 0
+            ^

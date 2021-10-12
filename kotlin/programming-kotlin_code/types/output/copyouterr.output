@@ -1,0 +1,6 @@
+copyouterr.kts:12:5: error: out-projected type 'Array<out Copyouterr.Fruit>' prohibits the use of 'public final operator fun set(index: Int, value: T): Unit defined in kotlin.Array'
+    from[i] = Fruit()  //ERROR
+    ^
+copyouterr.kts:13:10: error: out-projected type 'Array<out Copyouterr.Fruit>' prohibits the use of 'public final operator fun set(index: Int, value: T): Unit defined in kotlin.Array'
+    from.set(i, to[i]) //ERROR
+         ^

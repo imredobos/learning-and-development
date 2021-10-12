@@ -1,0 +1,3 @@
+companionerr.kts:12:26: error: unresolved reference: minimumBreak
+MachineOperator("Mater").minimumBreak() //ERROR
+                         ^

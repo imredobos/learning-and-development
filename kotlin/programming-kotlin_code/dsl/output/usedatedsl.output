@@ -1,0 +1,18 @@
+usedatedsl.kts:1:8: error: unresolved reference: datedsl
+import datedsl.*
+       ^
+usedatedsl.kts:2:8: error: unresolved reference: datedsl
+import datedsl.DateUtil.Tense.*
+       ^
+usedatedsl.kts:4:11: error: unresolved reference: days
+println(2 days ago)
+          ^
+usedatedsl.kts:4:16: error: unresolved reference: ago
+println(2 days ago)
+               ^
+usedatedsl.kts:5:11: error: unresolved reference: days
+println(3 days from_now)
+          ^
+usedatedsl.kts:5:16: error: unresolved reference: from_now
+println(3 days from_now)
+               ^

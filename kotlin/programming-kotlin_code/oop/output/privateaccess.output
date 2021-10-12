@@ -1,0 +1,3 @@
+privateaccess.kts:14:6: error: cannot access 'yearsOfService': it is private in 'Person'
+jane.yearsOfService() //ERROR
+     ^

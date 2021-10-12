@@ -1,0 +1,7 @@
+120
+recursivetail.kts:4:1: warning: a function is marked as tail-recursive but no tail calls are found
+tailrec fun factorialRec(n: Int): BigInteger =
+^
+recursivetail.kts:5:56: warning: recursive call is not a tail call
+  if (n <= 0) 1.toBigInteger() else n.toBigInteger() * factorialRec(n - 1)
+                                                       ^

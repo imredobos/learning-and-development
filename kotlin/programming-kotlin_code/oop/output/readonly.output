@@ -1,0 +1,3 @@
+readonly.kts:5:1: error: val cannot be reassigned
+car.yearOfMake = 2019 //ERROR: val cannot be reassigned
+^

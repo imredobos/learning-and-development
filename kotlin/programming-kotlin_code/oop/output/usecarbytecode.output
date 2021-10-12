@@ -1,0 +1,16 @@
+//...
+       7: ldc           #11                 // String Red
+       9: invokespecial #15                 
+                              // Method Car."<init>":(ILjava/lang/String;)V
+      12: astore_0
+      13: aload_0
+      14: invokevirtual #19                 // Method Car.getYearOfMake:()I
+      17: istore_1
+      18: aload_0
+      19: ldc           #21                 // String Green
+      21: invokevirtual #25                 
+                              // Method Car.setColor:(Ljava/lang/String;)V
+      24: aload_0
+      25: invokevirtual #29                 
+                              // Method Car.getColor:()Ljava/lang/String;
+//...

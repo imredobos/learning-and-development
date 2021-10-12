@@ -1,0 +1,8 @@
+Caught: CoroutineName(PD-) Unable to instantiate Airport
+Caught: CoroutineName(SF-) Unable to instantiate Airport
+SEA delay: true
+LAX delay: false
+Cancelled: false
+Cancelled: true
+Cancelled: true
+Cancelled: false

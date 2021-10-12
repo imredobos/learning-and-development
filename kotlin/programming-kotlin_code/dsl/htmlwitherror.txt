@@ -1,0 +1,9 @@
+fun main() {
+  val result =
+    html {
+      h1 { +"Methods' Behavior" }
+      p { "This is a sample" } 
+   }
+
+  println(result)
+}

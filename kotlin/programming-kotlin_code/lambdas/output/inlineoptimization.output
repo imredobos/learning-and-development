@@ -1,0 +1,14 @@
+enter invokeTwo 1
+
+called with 1, Stack depth: 28
+Partial listing of the stack:
+Inlineoptimization.report(inlineoptimization.kts:31)
+Inlineoptimization.callInvokeTwo(inlineoptimization.kts:20)
+Inlineoptimization.<init>(inlineoptimization.kts:23)
+
+called with 1, Stack depth: 28
+Partial listing of the stack:
+Inlineoptimization.report(inlineoptimization.kts:31)
+Inlineoptimization.callInvokeTwo(inlineoptimization.kts:20)
+Inlineoptimization.<init>(inlineoptimization.kts:23)
+exit invokeTwo 1

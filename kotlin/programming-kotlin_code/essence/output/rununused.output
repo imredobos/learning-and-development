@@ -1,0 +1,4 @@
+error: warnings found and -Werror specified
+unused.kts:1:13: warning: parameter 'n' is never used
+fun compute(n: Int) = 0
+            ^

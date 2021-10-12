@@ -1,0 +1,3 @@
+notbefore.kts:4:30: error: variable cannot be initialized before declaration
+    if (yearOfMake < 2020) { fuelLevel = 90 } //ERROR
+                             ^

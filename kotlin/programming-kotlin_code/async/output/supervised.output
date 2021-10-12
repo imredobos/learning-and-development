@@ -1,0 +1,5 @@
+202 Accepted
+Exception handled: http://httpstat.us/404?sleep=2000
+200 should still be running at this time
+let the parent cancel now
+Job was cancelled for fetchResponse 200

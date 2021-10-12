@@ -1,0 +1,4 @@
+Nickname for Venkat is TAKNEV
+kotlin.KotlinNullPointerException
+	at Jokeroperator.nickName(jokeroperator.kts:7)
+	at Jokeroperator.<init>(jokeroperator.kts:12)

@@ -1,0 +1,3 @@
+assignment.kts:4:1: error: assignments are not expressions, and only expressions are allowed in this context
+a = b = c //ERROR
+^

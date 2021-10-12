@@ -1,0 +1,3 @@
+immutable.kts:2:3: error: val cannot be reassigned
+  i = i * 2 //ERROR
+  ^

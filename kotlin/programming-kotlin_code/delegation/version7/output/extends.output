@@ -1,0 +1,3 @@
+extends.kts:16:1: error: 'public open fun takeVacation(): Unit defined in Extends.Manager' implicitly overrides a final member 'public final fun takeVacation(): Unit defined in Extends.Boss' by delegation
+class Manager(val staff: Worker) : Worker by staff, Boss()
+^

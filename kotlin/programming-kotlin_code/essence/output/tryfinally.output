@@ -1,0 +1,5 @@
+2
+4
+tryfinally.kts:11:5: warning: the expression is unused
+    7
+    ^

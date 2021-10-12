@@ -1,0 +1,3 @@
+copyerr.kts:19:12: error: type mismatch: inferred type is Array<Copyerr.Banana> but Array<Copyerr.Fruit> was expected
+copyFromTo(bananaBasket, fruitsBasket) //ERROR: type mismatch
+           ^

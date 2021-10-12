@@ -1,0 +1,9 @@
+Compiled from "Car.kt"
+public final class Car {
+  private final int yearOfMake;
+  private java.lang.String color;
+  public final int getYearOfMake();
+  public final java.lang.String getColor();
+  public final void setColor(java.lang.String);
+  public Car(int, java.lang.String);
+}

@@ -1,0 +1,3 @@
+inferunit.kts:3:23: error: type mismatch: inferred type is Unit but String was expected
+val message: String = sayHello() //ERROR
+                      ^

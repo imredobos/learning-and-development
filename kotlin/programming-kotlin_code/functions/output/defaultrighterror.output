@@ -1,0 +1,3 @@
+defaultrighterror.kts:1:31: error: parameter 'name' is uninitialized here
+fun greet(msg: String = "Hi ${name.length}", name: String): String = "$msg $name"
+                              ^

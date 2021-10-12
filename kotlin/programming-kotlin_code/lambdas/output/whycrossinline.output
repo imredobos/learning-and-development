@@ -1,0 +1,3 @@
+whycrossinline.kts:13:26: error: can't inline 'action2' here: it may contain non-local returns. Add 'crossinline' modifier to parameter declaration 'action2'
+  return { input: Int -> action2(input) }
+                         ^

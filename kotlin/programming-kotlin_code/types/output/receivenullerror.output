@@ -1,0 +1,3 @@
+receivenullerror.kts:6:14: error: only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
+  return name.reversed() //ERROR
+             ^

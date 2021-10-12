@@ -1,0 +1,3 @@
+elsemustbelast.kts:2:3: error: 'else' entry must be the last one in a when-expression
+  else -> "No clue" //ERROR
+  ^

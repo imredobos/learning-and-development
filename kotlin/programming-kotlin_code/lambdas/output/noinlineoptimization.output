@@ -1,0 +1,14 @@
+enter invokeTwo 1
+
+called with 1, Stack depth: 28
+Partial listing of the stack:
+Noinlineoptimization.report(noinlineoptimization.kts:31)
+Noinlineoptimization.callInvokeTwo(noinlineoptimization.kts:20)
+Noinlineoptimization.<init>(noinlineoptimization.kts:23)
+
+called with 1, Stack depth: 30
+Partial listing of the stack:
+Noinlineoptimization.report(noinlineoptimization.kts:31)
+Noinlineoptimization$callInvokeTwo$2.invoke(noinlineoptimization.kts:20)
+Noinlineoptimization$callInvokeTwo$2.invoke(noinlineoptimization.kts:1)
+exit invokeTwo 1

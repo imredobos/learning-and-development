@@ -1,0 +1,5 @@
+The value of count is: 0
+Property: var Observe.count: kotlin.Int old: 0: new: 1
+The value of count is: 1
+Property: var Observe.count: kotlin.Int old: 1: new: 0
+The value of count is: 0

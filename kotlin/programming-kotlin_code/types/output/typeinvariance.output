@@ -1,0 +1,3 @@
+typeinvariance.kts:15:15: error: type mismatch: inferred type is Array<Typeinvariance.Banana> but Array<Typeinvariance.Fruit> was expected
+receiveFruits(bananas) //ERROR: type mismatch
+              ^

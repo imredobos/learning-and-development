@@ -1,0 +1,11 @@
+<languages>
+  <language name='JavaScript'>
+    <author>Eich</author>
+  </language>
+  <language name='Java'>
+    <author>Gosling</author>
+  </language>
+  <language name='Ruby'>
+    <author>Matz</author>
+  </language>
+</languages>

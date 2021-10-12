@@ -1,0 +1,6 @@
+politecomment2.kts:2:12: error: unresolved reference: agiledeveloper
+import com.agiledeveloper.delegates.beingpolite
+           ^
+politecomment2.kts:4:24: error: unresolved reference: beingpolite
+var comment: String by beingpolite("Some nice message")
+                       ^

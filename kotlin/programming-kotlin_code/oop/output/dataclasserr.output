@@ -1,0 +1,3 @@
+dataclasserr.kts:1:48: error: data class primary constructor must have only property (val / var) parameters
+data class Task(val id: Int, val name: String, assigned: Boolean)
+                                               ^

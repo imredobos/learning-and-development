@@ -1,0 +1,6 @@
+cycle.kts:6:59: error: there's a cycle in the delegation calls chain
+  constructor(first: String, last: String, fte: Boolean): this(first, last, "--") {
+                                                          ^
+cycle.kts:11:48: error: there's a cycle in the delegation calls chain
+    first: String, last: String, loc: String): this(first, last, false) {
+                                               ^

@@ -1,0 +1,4 @@
+In outer lambda hello and 5
+in inner lambda -2 and -2.0
+from inner through receiver of outer: 5
+from inner to outer receiver hello

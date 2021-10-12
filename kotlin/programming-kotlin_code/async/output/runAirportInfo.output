@@ -1,0 +1,6 @@
+Code      Temperature         Delay     
+LAX       68.0 F (20.0 C)     false     
+SFO       50.0 F (10.0 C)     true      
+PDX       56.0 F (13.3 C)     false     
+SEA       55.0 F (12.8 C)     true      
+Time taken 2112 ms

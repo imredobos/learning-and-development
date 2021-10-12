@@ -1,0 +1,14 @@
+JILL, PAULA, PAUL, JACK
+JILL, PAULA, PAUL, JACK
+203
+203
+Jill
+2
+4
+7
+14
+14
+[Paula, Paul, Jill, Jack]
+[Jack, Jill, Paul, Paula]
+{S=[Person(firstName=Sara, age=12), Person(firstName=Sue, age=10)], J=[Person(firstName=Jill, age=51), Person(firstName=Jack, age=70)], P=[Person(firstName=Paula, age=23), Person(firstName=Paul, age=25)], M=[Person(firstName=Mani, age=12)]}
+{S=[Sara, Sue], J=[Jill, Jack], P=[Paula, Paul], M=[Mani]}

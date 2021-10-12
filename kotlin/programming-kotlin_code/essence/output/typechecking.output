@@ -1,0 +1,7 @@
+typechecking.kts:5:1: error: val cannot be reassigned
+greet = 0
+^
+typechecking.kts:5:9: error: the integer literal does not conform 
+  to the expected type String
+greet = 0
+        ^

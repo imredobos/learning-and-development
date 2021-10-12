@@ -1,0 +1,2 @@
+headers = fib.h
+linkerOpts.osx = -L. -lfib

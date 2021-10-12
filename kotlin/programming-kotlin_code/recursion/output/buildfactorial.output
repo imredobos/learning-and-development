@@ -1,0 +1,135 @@
+Compiled from "Factorial.kt"
+public final class Factorial {
+  public static final Factorial INSTANCE;
+
+  public final java.math.BigInteger factorialRec(int);
+    Code:
+       0: iload_1
+       1: ifgt          22
+       4: iconst_1
+       5: istore_2
+       6: iconst_0
+       7: istore_3
+       8: iload_2
+       9: i2l
+      10: invokestatic  #13                 // Method java/math/BigInteger.valueOf:(J)Ljava/math/BigInteger;
+      13: dup
+      14: ldc           #15                 // String BigInteger.valueOf(this.toLong())
+      16: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      19: goto          60
+      22: iload_1
+      23: istore_2
+      24: iconst_0
+      25: istore_3
+      26: iload_2
+      27: i2l
+      28: invokestatic  #13                 // Method java/math/BigInteger.valueOf:(J)Ljava/math/BigInteger;
+      31: dup
+      32: ldc           #15                 // String BigInteger.valueOf(this.toLong())
+      34: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      37: astore_2
+      38: aload_0
+      39: iload_1
+      40: iconst_1
+      41: isub
+      42: invokevirtual #23                 // Method factorialRec:(I)Ljava/math/BigInteger;
+      45: astore_3
+      46: iconst_0
+      47: istore        4
+      49: aload_2
+      50: aload_3
+      51: invokevirtual #27                 // Method java/math/BigInteger.multiply:(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+      54: dup
+      55: ldc           #29                 // String this.multiply(other)
+      57: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      60: areturn
+
+  public final java.math.BigInteger factorial(int, java.math.BigInteger);
+    Code:
+       0: aload_2
+       1: ldc           #37                 // String result
+       3: invokestatic  #40                 // Method kotlin/jvm/internal/Intrinsics.checkParameterIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+       6: iload_1
+       7: ifgt          14
+      10: aload_2
+      11: goto          82
+      14: aload_0
+      15: iload_1
+      16: iconst_1
+      17: isub
+      18: aload_2
+      19: astore_3
+      20: iload_1
+      21: istore        4
+      23: istore        7
+      25: astore        6
+      27: iconst_0
+      28: istore        5
+      30: iload         4
+      32: i2l
+      33: invokestatic  #13                 // Method java/math/BigInteger.valueOf:(J)Ljava/math/BigInteger;
+      36: dup
+      37: ldc           #15                 // String BigInteger.valueOf(this.toLong())
+      39: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      42: astore        8
+      44: aload         6
+      46: iload         7
+      48: aload         8
+      50: astore        4
+      52: istore        7
+      54: astore        6
+      56: iconst_0
+      57: istore        5
+      59: aload_3
+      60: aload         4
+      62: invokevirtual #27                 // Method java/math/BigInteger.multiply:(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+      65: dup
+      66: ldc           #29                 // String this.multiply(other)
+      68: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      71: astore        8
+      73: iload         7
+      75: aload         8
+      77: astore_2
+      78: istore_1
+      79: goto          0
+      82: areturn
+
+  public static java.math.BigInteger factorial$default(Factorial, int, java.math.BigInteger, int, java.lang.Object);
+    Code:
+       0: iload_3
+       1: iconst_2
+       2: iand
+       3: ifeq          25
+       6: iconst_1
+       7: istore        5
+       9: iconst_0
+      10: istore        6
+      12: iload         5
+      14: i2l
+      15: invokestatic  #13                 // Method java/math/BigInteger.valueOf:(J)Ljava/math/BigInteger;
+      18: dup
+      19: ldc           #15                 // String BigInteger.valueOf(this.toLong())
+      21: invokestatic  #21                 // Method kotlin/jvm/internal/Intrinsics.checkExpressionValueIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+      24: astore_2
+      25: aload_0
+      26: iload_1
+      27: aload_2
+      28: invokevirtual #45                 // Method factorial:(ILjava/math/BigInteger;)Ljava/math/BigInteger;
+      31: areturn
+
+  private Factorial();
+    Code:
+       0: aload_0
+       1: invokespecial #49                 // Method java/lang/Object."<init>":()V
+       4: return
+
+  static {};
+    Code:
+       0: new           #2                  // class Factorial
+       3: dup
+       4: invokespecial #64                 // Method "<init>":()V
+       7: astore_0
+       8: aload_0
+       9: putstatic     #66                 // Field INSTANCE:LFactorial;
+      12: return
+}

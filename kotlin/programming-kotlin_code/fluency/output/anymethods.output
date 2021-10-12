@@ -1,0 +1,6 @@
+Method    Argument  Receiver  Return    Result    
+===============================================
+let       context   lexical   RESULT    RESULT    
+also      context   lexical   RESULT    context   
+run       N/A       context   RESULT    RESULT    
+apply     N/A       context   RESULT    context   

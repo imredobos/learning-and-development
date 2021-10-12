@@ -1,0 +1,5 @@
+UseCompute.kt:4:17: error: unresolved reference: Compute
+  val compute = Compute()
+                ^
+Error: Could not find or load main class UseComputeKt
+Caused by: java.lang.ClassNotFoundException: UseComputeKt

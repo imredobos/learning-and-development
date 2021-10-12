@@ -1,0 +1,5 @@
+Derived.kt:1:31: error: unresolved reference: Card
+class Derived(suit: String) : Card(suit)
+                              ^
+Error: Could not find or load main class DerivedKt
+Caused by: java.lang.ClassNotFoundException: DerivedKt

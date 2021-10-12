@@ -1,0 +1,15 @@
+inheritanceerror.kts:13:16: error: 'year' in 'Vehicle' is final and cannot be overridden
+open class Car(override val year: Int, color: String) : Vehicle(year, color) { //ERROR
+               ^
+inheritanceerror.kts:27:3: error: 'toString' in 'Vehicle' is final and cannot be overridden
+  override fun toString() = "nope" //ERROR  
+  ^
+inheritanceerror.kts:29:3: error: 'repaint' in 'Vehicle' is final and cannot be overridden
+  override fun repaint(newColor: String) {} //ERROR
+  ^
+inheritanceerror.kts:34:5: error: cannot weaken access privilege 'public' for '<set-km>' in 'Car'
+    private set(value) { //ERROR
+    ^
+inheritanceerror.kts:55:3: error: 'drive' in 'Car' is final and cannot be overridden
+  override fun drive(distance: Int) {} //ERROR
+  ^

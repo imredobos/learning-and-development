@@ -1,0 +1,6 @@
+nonull.kts:6:10: error: null can not be a value of a non-null type String
+  return null //ERROR
+         ^
+nonull.kts:11:42: error: null can not be a value of a non-null type String
+println("Nickname for null is ${nickName(null)}") //ERROR
+                                         ^

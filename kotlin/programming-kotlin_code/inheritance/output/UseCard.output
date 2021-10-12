@@ -1,0 +1,35 @@
+UseCard.kt:1:19: error: unresolved reference: Card
+fun process(card: Card) = when (card) {
+                  ^
+UseCard.kt:1:27: error: 'when' expression must be exhaustive, add necessary 'else' branch
+fun process(card: Card) = when (card) {
+                          ^
+UseCard.kt:2:6: error: unresolved reference: Ace
+  is Ace -> "${card.javaClass.name} of ${card.suit}"
+     ^
+UseCard.kt:3:6: error: unresolved reference: King
+  is King, is Queen, is Jack -> "$card"
+     ^
+UseCard.kt:3:15: error: unresolved reference: Queen
+  is King, is Queen, is Jack -> "$card"
+              ^
+UseCard.kt:3:25: error: unresolved reference: Jack
+  is King, is Queen, is Jack -> "$card"
+                        ^
+UseCard.kt:4:6: error: unresolved reference: Pip
+  is Pip -> "${card.number} of ${card.suit}"
+     ^
+UseCard.kt:8:19: error: unresolved reference: Ace
+  println(process(Ace("Diamond")))    // Ace of Diamond
+                  ^
+UseCard.kt:9:19: error: unresolved reference: Queen
+  println(process(Queen("Clubs")))    // Queen of Clubs
+                  ^
+UseCard.kt:10:19: error: unresolved reference: Pip
+  println(process(Pip("Spades", 2)))   // 2 of Spades
+                  ^
+UseCard.kt:11:19: error: unresolved reference: Pip
+  println(process(Pip("Hearts", 6)))  // 6 of Hearts
+                  ^
+Error: Could not find or load main class UseCardKt
+Caused by: java.lang.ClassNotFoundException: UseCardKt

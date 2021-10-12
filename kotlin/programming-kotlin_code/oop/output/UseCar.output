@@ -1,0 +1,5 @@
+UseCar.kt:2:13: error: unresolved reference: Car
+  val car = Car(2019, "Red")
+            ^
+Error: Could not find or load main class UseCarKt
+Caused by: java.lang.ClassNotFoundException: UseCarKt

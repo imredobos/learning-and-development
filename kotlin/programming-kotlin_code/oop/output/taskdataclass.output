@@ -1,0 +1,6 @@
+Task(id=1, name=Create Project, completed=false, assigned=true)
+Name: Create Project
+Task(id=1, name=Create Project, completed=true, assigned=false)
+ID is 1, yes it is 1
+Id: 1 Assigned: true
+Id: 1 Assigned: true

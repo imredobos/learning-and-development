@@ -1,0 +1,3 @@
+projecterror.kts:32:29: error: type mismatch: inferred type is Projecterror.Manager but Projecterror.JavaProgrammer was expected
+val coder: JavaProgrammer = doe //ERROR: type mismatch
+                            ^

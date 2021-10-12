@@ -1,0 +1,3 @@
+  public final long compute1(long);
+  public final java.lang.Object compute2(long,
+    kotlin.coroutines.Continuation<? super java.lang.Long>);

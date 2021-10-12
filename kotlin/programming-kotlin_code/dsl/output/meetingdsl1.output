@@ -1,0 +1,4 @@
+step 1 accomplished
+meetingdsl1.kts:1:26: warning: parameter 'block' is never used
+infix fun String.meeting(block: () -> Unit) {
+                         ^
